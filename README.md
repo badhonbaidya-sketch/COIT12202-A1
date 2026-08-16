@@ -896,13 +896,15 @@ openssl verify -x509_strict \
   intermediate-ca.crt
 
 # HTTPS validation
-curl -v https://secure-server.local/
+curl -v \
+  --cacert /opt/pki/root-ca/certs/root-ca.crt \
+  https://secure-server.local/
 
-# SSH host certificate
+# SSH Server host certificate
 ssh-keygen -L \
   -f /etc/ssh/ssh_host_ed25519_key-cert.pub
 
-# SSH user certificate
+# SSH Client user certificate
 ssh-keygen -L \
   -f ~/.ssh/id_ed25519-cert.pub
 
