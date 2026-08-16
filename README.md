@@ -961,7 +961,7 @@ The major assessment outcomes were successfully demonstrated through configurati
 
 **COIT12202 Assignment 1 Security Portfolio**
 
-Central Queensland University (CQU)
+Badhon Badiya - Central Queensland University (CQU)
 
 ---
 
