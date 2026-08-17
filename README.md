@@ -19,15 +19,6 @@ The repository contains configuration files, public certificates, public keys, c
 
 ---
 
-# 1. Lab Environment
-
-The laboratory was implemented using two Ubuntu virtual machines on an isolated network.
-
-| Component | Hostname / Role | IP Address | Purpose |
-|---|---|---|---|
-| Server VM | `secure-server.local` | `192.168.88.128` | PKI, Nginx HTTPS, SSH CA, hardened SSH and Fail2Ban |
-| Client VM | Client/Test Machine | `192.168.88.130` | Certificate validation, HTTPS testing, SSH authentication and security testing |
-
 ## Server Operating System
 
 Ubuntu 20.04.6 LTS was used for the server environment.
